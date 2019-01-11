@@ -11,7 +11,7 @@ for i in range(100):
   x.append(q)
   y.append(int(proc.stdout.decode("utf8")) / step)
 
-plt.scatter(x, y, color="orange")
+plt.scatter(x, y, label=1)
 x = np.linspace(0, 1, 1000)
 y = x / (x + 1)
 plt.plot(x, y)
